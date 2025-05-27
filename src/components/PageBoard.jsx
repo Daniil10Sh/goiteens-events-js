@@ -1,5 +1,5 @@
 import Data from "../upcoming-events.json"
-import Event from "./Events"
+import Event from "./Event.jsx"
 
 export default function PageBoard({events = Data}){
     return(
